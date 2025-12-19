@@ -20,3 +20,5 @@ cart.add_item(tshirt, 3)
 # Выводим детали корзины
 print(cart.get_details(customer, payment_receipt_status = 'success'))
 
+# Вывод:
+# Ali приобрел : Мыло * 2 шт, Футболка * 3 шт, на общую сумму: 740 руб - зарегистрировал покупки пользователь админ

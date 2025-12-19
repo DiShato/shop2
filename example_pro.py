@@ -20,13 +20,13 @@ print()
 
 # просмотр активных сессий
 print('токены сессий: ', auth_service.session_token) 
-print(auth_service.get_current_user())
+auth_service.get_current_user()
 print()
 
 # выход из сервиса
 auth_service.logout("Alin")
 auth_service.logout("Alina")
-print(auth_service.get_current_user())
+auth_service.get_current_user()
 print()
 
 # возможности админа----------------------------
